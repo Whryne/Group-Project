@@ -113,12 +113,33 @@ body {
   margin-top: 2.4em;
   min-height: 400px;
   width: 100%;
-  background-color: aqua;
+  background-color:aqua;
+  
+}
+
+
+#drop-down-two{
+  color: red;
+  margin-top: 2.4em;
+  min-height: 400px;
+  width: 100%;
+  background-color:aqua;
+  display: flex;
+  justify-content: space-around;
+}
+.one{
+  display: grid;
+  justify-content: space-between;
 }
 
 .drop-down ul li {
   display: block;
 }
+
+.drop-down-one{
+  padding: 40px;
+}
+
 
 /*Drop-Down Box :hover effect*/
 .header li a:hover .drop-down-box {
