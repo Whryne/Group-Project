@@ -1,0 +1,34 @@
+.about,
+.getInvolved,
+.contact,
+.media {
+  min-height: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.small,
+.large {
+  display: flex;
+  align-items: center;
+  padding: 3em 4em;
+}
+
+.small {
+  width: 40%;
+}
+
+.large {
+  width: 60%;
+  justify-content: center;
+}
+
+.left {
+  width: 100%;
+  text-align: left;
+}
+.right {
+  width: 100%;
+  text-align: right;
+}
