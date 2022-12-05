@@ -1,0 +1,277 @@
+
+
+.about,
+.getInvolved,
+.contact,
+.media {
+  min-height: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+@media only screen and (max-width: 768px) {
+  formobilephones: [class * = "col-" ] {
+    width: 100%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  font-size: 1.2rem;
+}
+
+.wrapper {
+  width: 100%;
+  padding-top: 6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/****************** Header *********************/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  width: 100%;
+  background-color: aqua;
+  padding: 0 10px;
+}
+
+.nav {
+  width: 100%;
+  height: 7em;
+  overflow: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+}
+
+.left-nav {
+  position: absolute;
+  left: 100px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.left-nav ul {
+  list-style-type: none;
+}
+
+.main-link > li {
+  position: relative;
+  display: inline-block;
+  margin: 0 1em 0;
+}
+
+.header a {
+  display: inline-block;
+  padding: 0.5em;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.header a:hover {
+  text-decoration: underline;
+  transform: scale(1.05);
+}
+
+/* Right-Nav*/
+.right-nav {
+  padding: 1.5rem;
+}
+
+.header input {
+  width: 200px;
+  height: 30px;
+  margin-right: 3rem;
+  padding-left: 1em;
+  font-size: 1.2rem;
+  border: none;
+}
+
+/*Drop-down Menu*/
+
+/*Drop-Down Box */
+.drop-down-box {
+  display: none;
+  position: absolute;
+  top: 2em;
+  left: 0.5em;
+  z-index: 5;
+  background-color: transparent;
+  min-height: 0px;
+  width: 50vw;
+}
+/*Drop-Down list*/
+.drop-down {
+  color: red;
+  margin-top: 2.4em;
+  min-height: 400px;
+  width: 100%;
+  background-color: aqua;
+}
+
+#drop-down-two {
+  color: red;
+  margin-top: 2.4em;
+  min-height: 400px;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+}
+.one {
+  display: grid;
+  justify-content: space-between;
+}
+
+.drop-down ul li {
+  display: block;
+}
+
+.drop-down-one {
+  padding: 40px;
+}
+
+/*Drop-Down Box :hover effect*/
+.header li a:hover .drop-down-box {
+  display: block;
+  height: 400px;
+}
+
+/**************** Main *******************/
+.main {
+  width: 100%;
+  min-height: 500px;
+}
+
+.container {
+  width: 80%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+/* container below*/
+.eats {
+  text-align: center;
+}
+
+.container-1 {
+  display: flex;
+  border: 2px solid rgb(233, 89, 32);
+  padding: 10px;
+  margin: 10px;
+  gap: 280px;
+  
+}
+/* -- Color panal-- us it ASAp */
+body{
+  background-color: rgba(174, 231, 28, 0.635);
+
+}
+
+
+
+
+.everybody-img1 {
+  border: 2px solid black;
+}
+
+.para-1 {
+  border: 2px solid black;
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+}
+
+#para{
+text-align: center;
+}
+
+.container-2 {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+  gap: 280px;
+ 
+}
+
+.para-2 {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+}
+
+.everybody-img2 {
+  border: 2px solid black;
+}
+
+.felix {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+/***************imags and text above**********/
+/*************** Footer **********************/
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: ;
+
+  padding: 5em 1em;
+  width: 100%;
+  min-height: 400px;
+  background-color: black;
+  color: #fff;
+}
+
+.footer .logo-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small,
+.large {
+  display: flex;
+  align-items: center;
+  padding: 3em 4em;
+}
+
+.small {
+  width: 40%;
+}
+
+.large {
+  width: 60%;
+  justify-content: center;
+}
+
+.left {
+  width: 100%;
+  text-align: left;
+}
+.right {
+  width: 100%;
+  text-align: right;
+}
