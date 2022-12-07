@@ -1,0 +1,84 @@
+.container{
+
+}
+
+.mission,
+.vision,
+.founder {
+  min-height: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+  gap: 2em;
+}
+
+.mission-title{
+  background-image: url("../template/Images/pic.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  
+}
+
+.mission-content , .vision-content , .founder-content{
+  position: relative;
+}
+
+.mission a , .founder a{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.vision a {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+
+a{
+  cursor: pointer;
+}
+
+#text-one , #text-two , #text-three{
+  margin-bottom: 2em;
+}
+
+.vision-title{
+  background-image: url("../template/Images/mentorshipimg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.founder-title{
+  background-image: url("../template/Images/felixupdatedpic1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.small,
+.large {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding: 3em 4em;
+ 
+}
+
+.large {
+  width: 50%;
+  justify-content: center;
+  
+}
+
+
+
+.right {
+  width: 100%;
+  text-align: right;
+}
