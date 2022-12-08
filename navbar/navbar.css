@@ -82,8 +82,9 @@ body {
 .header a:hover {
   /* text-decoration: underline; */
   transform: scale(1.05);
-  color: #e19f48
-  ;
+  /* color: #e19f48
+  ; */
+  color: #98741b;
 }
 
 /* Right-Nav*/
@@ -94,8 +95,9 @@ body {
 .right-nav a{
   font-size: 20px;
   /* color: #14a800; */
-  color: #e19f48;
+  /* color: #e19f48; */
   text-decoration: none;
+  color: #98741b;
 }
 
 .right-nav a:hover{
@@ -174,7 +176,8 @@ body {
 }
 
 #drop-down-two li a:hover {
-  color: #e19f48;
+  /* color: #e19f48; */
+  color: #98741b;
 }
 .one {
   display: grid;
@@ -329,7 +332,8 @@ li > a {
 }
 a:hover {
   /* text-decoration: underline; */
-  color: #e19f48;
+  /* color: #e19f48; */
+  color: #98741b;
 }
 
 /**** Social medias ****/
@@ -352,8 +356,9 @@ a:hover {
 
 .icons-media a  span:hover {
   /* text-decoration: underline; */
-  color: #e19f48
-  ;
+  /* color: #e19f48
+  ; */
+  color: #98741b;
 }
 
 .icons-media {
@@ -405,7 +410,8 @@ h4 {
 
 .legal ul li {
   /* color: #fff; */
-  color: #e19f48;
+  /* color: #e19f48; */
+  color: #98741b;
 }
 
 .founder h3{
