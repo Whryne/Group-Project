@@ -1,0 +1,95 @@
+.main {
+    width: 100%;
+    min-height: 500px;
+  }
+  
+  .container {
+    width: 80%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 2em 0;
+    
+  }
+  .mission,
+  .vision,
+  .founderr {
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    gap: 2em;
+    
+  }
+  
+  .mission-title{
+    background-image: url("../template/Images/pic.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+  }
+  
+  .mission-content , .vision-content , .founderr-content{
+    position: relative;
+  }
+  
+  .mission a , .founderr a{
+    position: absolute;
+    bottom: 0;
+    right: 0; 
+  }
+  
+  .vision a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  
+  a{
+    cursor: pointer;
+  }
+  
+  #text-one , #text-two , #text-three{
+    margin-bottom: 2em;
+  }
+  
+  .vision-title{
+    background-image: url("../template/Images/mentorshipimg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .founderr-title{
+    background-image: url("../template/Images/felixupdatedpic1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .small,
+  .large {
+    display: flex;
+    align-items: center;
+    padding: 3em 4em;
+   
+  }
+  
+  .large {
+    width: 50%;
+    justify-content: center;
+    
+  }
+  
+  .small {
+    width: 50%;
+  }
+  
+  .right {
+    width: 100%;
+    text-align: right;
+  }

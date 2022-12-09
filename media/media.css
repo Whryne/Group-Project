@@ -210,7 +210,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 2em;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 .news-title{
@@ -220,18 +220,15 @@ body {
   
 }
 
-.video-title{
-  border: 2px solid black;
-  
-}
 
-.video-title iframe {
-  width: 600px;
+.video-title iframe{
+  width: 100%;
+  height: 100%;
 }
 
 .audio-title{
   background-image: url("004.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .small,
@@ -242,11 +239,11 @@ body {
 }
 
 .small {
-  width: 40%;
+  width: 80%;
 }
 
 .large {
-  width: 60%;
+  width: 40%;
   justify-content: center;
 }
 
