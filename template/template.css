@@ -1,5 +1,5 @@
 @media only screen and (max-width: 768px) {
-  formobilephones: [class * = "col-" ] {
+  formobilephones: [class= "col-" ] {
     width: 100%;
   }
 }
