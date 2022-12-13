@@ -1,0 +1,32 @@
+.news,
+.video,
+.audio {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4em;
+  gap: 2em;
+}
+
+.small,
+.large {
+  align-items: center;
+  border: 5px solid black;
+}
+
+.small {
+  width: 40%;
+}
+
+.large {
+  width: 60%;
+  justify-content: center;
+}
+
+.left {
+  width: 100%;
+  text-align: left;
+}
+.right {
+  width: 100%;
+  text-align: right;
+}

@@ -1,0 +1,429 @@
+@media only screen and (max-width: 768px) {
+  formobilephones: [class * = "col-" ] {
+    width: 100%;
+  }
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "Roboto", sans-serif;  */
+  min-height: 100vh;
+  font-size: 1.2rem;
+}
+
+.wrapper {
+  width: 100%;
+  padding-top: 6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/****************** Header *********************/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  width: 100%;
+  background-color: #2f3031;
+  padding: 0 10px;
+}
+
+.nav {
+  padding: 0 20px;
+  width: 100%;
+  height: 7em;
+  overflow: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+}
+
+.left-nav {
+  position: absolute;
+  left: 100px;
+  font-size: 16px;
+  left: 300px;
+}
+
+.logo {
+  width: 12%;
+  height: 10%;
+  border-radius: 50%;
+}
+
+.left-nav ul {
+  list-style-type: none;
+}
+
+.main-link > li {
+  position: relative;
+  display: inline-block;
+  margin: 0 1em 0;
+}
+
+.header a {
+  display: inline-block;
+  padding: 0.5em;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.header a:hover {
+  /* text-decoration: underline; */
+  transform: scale(1.05);
+  color: #e19f48
+  ;
+}
+
+/* Right-Nav*/
+.right-nav {
+  padding: 1.5rem;
+}
+
+.right-nav a{
+  font-size: 20px;
+  /* color: #14a800; */
+  color: #e19f48;
+  text-decoration: none;
+}
+
+.right-nav a:hover{
+  color: #14a800;
+  text-decoration: none;
+}
+
+.search{
+  border-radius: 10px;
+  padding: 5px;
+  border: none;
+  margin-right: 50px;
+}
+.
+
+
+
+.header input {
+  width: 200px;
+  height: 30px;
+  margin-right: 3rem;
+  padding-left: 1em;
+  font-size: 1.2rem;
+  border: none;
+}
+
+/*Drop-down Menu*/
+
+/*Drop-Down Box */
+.drop-down-box {
+  display: none;
+  position: absolute;
+  /* top: 2em;
+  left: 0.5em; */
+  z-index: 5;
+  background-color: transparent;
+  /* min-height: 5px; */
+  width: 60vw;
+}
+/*Drop-Down list*/
+.drop-down {
+  /* color: red; */
+  margin-top: 2.0em;
+  padding-top: 10px; 
+  min-height: 100px;
+  padding: 10px;
+  width: 20%;
+  background-color: #2f3031;
+}
+
+.drop-down li{
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+
+.drop-down li a {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+ 
+
+}
+
+#drop-down-two {
+  color: #ffffff;
+  margin-top: 2.0em;
+  min-height: 100px;
+  width: 30%;
+  background-color: #2f3031;
+  display: flex;
+  justify-content: space-around;
+}
+
+#drop-down-two li a {
+  color: #ffffff;
+}
+
+#drop-down-two li a:hover {
+  color: #e19f48;
+}
+.one {
+  display: grid;
+  /* justify-content: space-between; */
+}
+
+.one li a:hover {
+  /* color: #e19f48
+  ; */
+}
+
+.drop-down ul li {
+  display: block;
+}
+
+
+/*Drop-Down Box :hover effect*/
+.header li:hover .drop-down-box {
+  display: block;
+  height: 400px;
+}
+
+/**************** Main *******************/
+.main {
+  width: 100%;
+  min-height: 500px;
+}
+
+.container {
+  width: 80%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+/*************** Footer **********************/
+ 
+.footer {
+  padding: 5em 1em 0;
+  width: 100%;
+  min-height: 400px;
+  background-color: #2f3031; 
+  color: #fff;
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Oswald', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  /* color: #e19f48; */
+}
+
+.footer .logo-box {
+  /* background-color: #14a800; */
+  width: 100%;
+}
+
+#logo-nav {
+  width: 27%;
+  height: 24%;
+  border-radius: 50%;
+}
+
+#logo-united {
+  width: 200px;
+  height: 120px;
+}
+
+#logo-dane {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.link-wrapper {
+  width: 80%;
+}
+
+.merge{
+  display: flex;
+  /* justify-content: space-between; */
+  /* background-color:blueviolet; */
+  height: 230px;
+  /* padding: 50px 10px; */
+  justify-content: center;
+  /* margin: 0 100px; */
+}
+
+.merge > div {
+  /* padding: 50px 10px; */
+  margin: 0 200px;
+
+}
+
+.dane-united {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.dane-united div {
+  margin: 0 15px;
+}
+
+.title {
+  font-size:x-large;
+  font-weight: bold;
+  margin-left: 55px;
+
+}
+
+/**** Logo - links - social medias ****/
+
+.logo-links-socialmedias {
+  display: flex;
+  /* justify-content: space-between; */
+  /* background-color: green; */
+  /* min-height: 300px; */
+}
+
+.logo-links-socialmedias {
+  padding: 50px 10px;
+}
+
+.links{
+  display: flex;
+  /* width: 80%; */
+  margin-bottom: 50px;
+}
+
+.links > div {
+  margin-right: 100px;
+}
+
+.links > div > span {
+  display: inline-block;
+  font-size:x-large;
+  font-weight: bold;
+  min-width: 150px;
+  margin-bottom: 20px;
+}
+
+li {
+  list-style-type: none;
+  /* margin-top: 30px; */
+  line-height: 2;
+}
+
+li > a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #14a800;
+}
+a:hover {
+  /* text-decoration: underline; */
+  color: #e19f48;
+}
+
+/**** Social medias ****/
+.connect{
+  /* background-color: goldenrod; */
+  height: 50px;
+  font-size: .8rem;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.connect div:nth-child(1){
+  margin-right: 100px;
+}
+
+.pics{
+  width: 20px;
+}
+
+.icons-media a  span:hover {
+  /* text-decoration: underline; */
+  color: #e19f48
+  ;
+}
+
+.icons-media {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin-right: 4rem;
+}
+
+.icons-media img{
+  margin-bottom: 5px;
+}
+
+
+.icons-media a{
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+}
+
+.icons-media span {
+  color: #14a800;
+}
+
+h4 {
+  font-size:x-large;
+  font-weight: bold;
+}
+
+/****Copy Right****/
+.legal ul {
+  display: flex;
+  justify-content:flex-start;
+  /* s */
+  height: 40px;
+  /* background-color: blueviolet; */
+  /* color: grey; */
+  font-size: 14px;
+  margin-left: 30px;
+}
+
+.legal ul li a {
+  color: grey;
+  margin-left: 30px;
+}
+
+.legal ul li {
+  /* color: #fff; */
+  color: #e19f48;
+}
+
+.founder h3{
+  margin-bottom: 20px ;
+}
+
+.founder p{
+  font-size: 15px;
+  line-height: 2;
+  color: #14a800;
+}
+
+.founder a{
+  text-decoration: none;
+  /* color: #fff; */
+  color: #14a800;
+}
+
+hr {
+  opacity: 0.1;
+}
