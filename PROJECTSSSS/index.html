@@ -8,9 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./about.css" />
-    <link rel="stylesheet" href="./template.css" />
-    <title>Group Brackett Project</title>
+    
+    <link rel="stylesheet" href="/styles/template.css" />
+    <link rel="stylesheet" href="/styles/landingpage.css">
+    <link rel="icon" href="/Images/r.png">
+    <title>Home</title>
   </head>
   <body>
     <div class="wrapper">
@@ -20,7 +22,7 @@
           <div class="logo-box">
             <img 
               class="logo"
-              src="../template/Images/logos/a.png"
+              src="/Images/r.png"
               alt="Company logo"
             />
           </div>
@@ -31,7 +33,7 @@
                 <a href="#">Home</a>        
               </li>
               <li class="about-link">
-                <a href="#">About</a>
+                <a href="about copy.html">About</a>
                   <div class="drop-down-box">
                     <ul class="drop-down">
                       <li class="drop-down-one"><a href="#">Mission</a></li> <hr>
@@ -41,12 +43,12 @@
                   </div>
               </li>
               <li class="get_involved-link">
-                <a href="#">Get-Involved</a>
+                <a href="#">Get Involved</a>
                   <div class="drop-down-box">
                     <ul class="drop-down">
-                      <li class="drop-down-one"><a href="#">Mentosrship</a></li><hr>
-                      <li class="drop-down-one"><a href="#">Activities</a></li><hr>
-                      <li class="drop-down-one"><a href="#">Brother</a></li>
+                      <li class="drop-down-one"><a href="mentorship.html">Mentorship</a></li><hr>
+                      <li class="drop-down-one"><a href="activities.html">Activities</a></li><hr>
+                      <li class="drop-down-one"><a href="brotha.html">Brotha From Anotha Motha</a></li>
                     </ul>
                   </div>
               </li>
@@ -64,18 +66,18 @@
                     <ul class=""> 
                       <li><a href="#">Twitter</a></li><hr>
                       <li><a href="#">LinkedIn</a></li><hr>
-                      <li><a href="" >(608)-4564-564</a></li>
+                      <li><a href="#" >(608)456-4564</a></li>
                     </ul>
                   </div> 
                  </div>
               </li>
               <li class="media-link">
-                <a href="#">Media</a>
+                <a href="media.html">Media</a>
                   <div class="drop-down-box">
                     <ul class="drop-down">
                       <li class="drop-down-one"><a href="#">News</a></li><hr>
-                      <li class="drop-down-one"><a href="#">Videos</a></li><hr>
-                      <li class="drop-down-one"><a href="#">Audios</a></li>
+                      <li class="drop-down-one"><a href="#">Video</a></li><hr>
+                      <li class="drop-down-one"><a href="#">Audio</a></li>
                       </ul>
                   </div>
               </li>
@@ -83,7 +85,7 @@
           </div>
           <div class="right-nav">
             <input type="text" placeholder="Search" class="search"/>
-            <a href="#donate">Donate</a>
+            <a href="donate.html">Donate</a>
           </div>
         </div>
       </nav>
@@ -92,107 +94,66 @@
       <main class="main">
         <div class="container">
           <!------Paste Your Code Here:------->
-          <div class="mission">
-            <div class="mission-title small">
+          <div class="about">
+            <div class="about-title small">
+              <a href="#about.html"><img class="image-link" id="about-img"src="/Images/about-img.jpg"></a><!--<h2 class="left">About</h2>-->
             </div>
-            <div class="mission-content large">
-              <ul>
-                <li>EMPOWERING</li>
-                <li>SUPPORTING</li>
-                <li>EQUIPPING</li>
-              </ul>
-              <div class="mission">
-                <a onclick="myFunction()">Mission</a>
-              </div>
+            <div class="about-content large">
+              <div class="sectiontitle"><h2 class="sectiontitle">About</h2></div>
+              <br>
+              <p class="" id="about-text">
+                Trained To Grow Inc. (TTG Inc.) is an organization established for the purpose of empowering and equipping Madison’s youth to become the leaders of their generation. TTG Inc.’s mission is to give youth the support, confidence and resources to excel in every area of life. TTG Inc. focuses on developing youth intellectually, emotionally, academically and mentally.
+              </p>
             </div>
           </div>
-          <p id="text-one">
-            Trained To Grow Inc. (TTG Inc.) is an organization established for the purpose of empowering and equipping Madison’s youth to become the leaders of their generation. TTG Inc.’s mission is to give youth the support, confidence and resources to excel in every area of life. TTG Inc. focuses on developing youth intellectually, emotionally, academically and mentally.
-          </p> 
-          <script>
+          <div class="getInvolved">
             
-            function myFunction() {
-               var x = document.getElementById("text-one");
-              if (x.style.display === "none") {
-                x.style.display = "block";
-              } else {
-                x.style.display = "none";
-             }
-              }
-          </script>
+            <div class="getInvolved-content large">
+              <div class="sectiontitle"><h2 class="sectiontitle">Get Involved</h2></div>
+              <p class="" id="getinvolved-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore illo ipsam id reprehenderit tempora placeat sint
+                vitae, dolorum, eveniet tenetur dolor? Veniam asperiores ea,
+                saepe natus unde eius nesciunt amet.
+              </p>
+            </div>
+            <div class="getInvolved-title small">
+              <a href="#get-involved.html"><img class="image-link" id="get-involved-img"src="/Images/mentorshipimg.jpg"></a><!--<h2 class="right">Get Involved</h2>-->
+            </div>
+          </div>
+          <div class="contact">
+            <div class="cotact-title small">
+              <img id="contact-img" class="image-link" src="./Images/contact-link-img.jpg">
+            </div>
+            <div class="contact-content large">
+              <div class="sectiontitle"><h2 class="sectiontitle">Contact</h2></div>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore illo ipsam id reprehenderit tempora placeat sint
+                vitae, dolorum, eveniet tenetur dolor? Veniam asperiores ea,
+                saepe natus unde eius nesciunt amet.
+              </p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-content large">
+              <div class="sectiontitle"><h2 class="sectiontitle">Media</h2></div>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore illo ipsam id reprehenderit tempora placeat sint
+                vitae, dolorum, eveniet tenetur dolor? Veniam asperiores ea,
+                saepe natus unde eius nesciunt amet.
+              </p>
+            </div>
+            <div class="media-title small">
+              <!--<h2 class="right">Media</h2>-->
+              <a href=><img  class="image-link"src="/Images/media.jpg"></a>
+            </div>
+          </div>
 
-          <div class="vision">
-            <div class="vision-content large">
-              <ul>
-                <li>TRAINING</li>
-                <li>ENCOURAGING</li>
-                <li>PROVIDING</li>
-              </ul>
-              <div class="vision">
-                <a onclick="myFunctionTwo()">Vision</a>
-              </div>
-            </div>
-            
-            <div class="vision-title small">
-            </div>
-          </div>
-          <p id="text-two">
-            Trained To Grow Inc. fully dedicates time and effort into encouraging,
-            empowering and supporting youth. Through the benefit of new relationships
-            and character building projects, the youth of TTG Inc. will learn
-            important moral and leadership qualities that will help them thrive in a
-            positive environment. TTG Inc. programs are designed to meet the needs of
-            challenge deprived youth who lack an abundance of healthy support systems,
-            strong guidance, and positive encouragement. ​Our target group is youth between the ages of 12-18 in/or transitioning out of legal custody (or at risk). We hope to collaborate with other youth services to guarantee that said youth have an opportunity to learn, grow and thrive. We alone cannot provide everything needed for our youth, it takes us all to ensure all needs are met.
-          </p>
-      
-          <script>
-            
-            function myFunctionTwo() {
-               var x = document.getElementById("text-two");
-              if (x.style.display === "none") {
-                x.style.display = "block";
-              } else {
-                x.style.display = "none";
-             }
-              }
-          </script>
-
-
-          <div class="founderr">
-            <div class="founderr-title small">
-            </div>
-            <div class="founderr-content large">
-              <h2>FELIX GIBONEY IV</h2>
-              <ul>
-                <li>PASSION</li>
-                <li>MENTORING</li>
-                <li>DEVELOPMENT</li>
-                <li>COMPASSION</li>
-                <li>KNOWLEDGE</li>
-              </ul>
-              <div class="founderr">
-                <a onclick="myFunctionThree()">Founder</a>
-              </div>
-            </div>
-          </div>
-          <p id="text-three">
-             Felix’s passion is mentoring and youth development. He is first and foremost a father, big brother, and community servant. Born and raised in Memphis, he was involved as a young adult in the criminal justice system. He moved to Madison and began to connect with re-entry work in our community and paying the work forward. He displays compassion and non judgment, but carries the social capital, content knowledge and skill sets to listen to youth and walk with them to meet their own needs. Felix has worked with youth in elementary, middle, and high school to manage and overcome trauma, develop leadership skills, navigate systems, and hone in on their personal, academic and career goals. His orientation toward solutions and “doing it together” makes him effective and trans-formative.
-          </p>
-          <script>
-            function myFunctionThree() {
-               var x = document.getElementById("text-three");
-              if (x.style.display === "none") {
-                x.style.display = "block";
-              } else {
-                x.style.display = "none";
-             }
-              } 
-            
-          </script>
-          </div>
-        </main>
-    
+          <!------ Your Code Ends Here------->
+        </div>
+      </main>
 
       <!-- Chart Box -->
       <!--  <div class="chat"></div>
@@ -236,7 +197,7 @@
           <div class="logo-box">
             <img
             id="logo-nav"
-            src="../template/Images/logos/a.png"
+            src="/Images/r.png"
              width=""
             height=""
             />
@@ -270,7 +231,7 @@
               <div>
                 <span>News</span>
                 <ul>
-                  <li><a href="#">What's happening</a></li>
+                  <li><a href="#">What's Happening</a></li>
                   <li><a href="#">Media</a></li>
                 </ul>
               </div>
@@ -303,8 +264,7 @@
               <div class="icons-media">
                 <a href="#">
                   <i class="fa-brands fa-square-youtube"></i>
-                  <img class="pics" src="
-                  "> <span>Youtube</span>
+                  <img class="pics" src=""> <span>Youtube</span>
                 </a>
               </div>
             </div>
